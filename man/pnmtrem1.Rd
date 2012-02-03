@@ -26,7 +26,7 @@ a \eqn{(p_2+1) \times N \times k \times (T-1)} matrix or data frame, which has t
 an \eqn{(N * k) \times 1} matrix or data frame for the multiple responses at baseline. The general form of it can be depicted as \eqn{\mbox{Respmat}_{1}}=(\eqn{Y_{.11}, \ldots, Y_{.1k})^T} where \eqn{Y_{.1j}=(Y_{11j}, \ldots, Y_{N1j})}.
 }
   \item{respmat2}{
-an \eqn{(N * k * T) \times 1} matrix or data frame for the multiple responses for \eqn{t \geq 2}. The general form of it can be illustrated as
+an \eqn{(N * k * T) \times 1} matrix or data frame for the multiple responses for \eqn{t \geq 1}. The general form of it can be illustrated as
  
 \eqn{\mbox{Respmat}_{2}=(Y_{.11}, \ldots, Y_{.1k}, \ldots, Y_{.T1}, \ldots, Y_{.Tk})^T} where \eqn{Y_{.tj}=(Y_{1tj}, \ldots, Y_{Ntj})}.
 }
@@ -97,13 +97,13 @@ The modeling framework assumes two different models: 1) a model for baseline tim
 \code{pnmtrem1} returns the modeling output of baseline and \eqn{t \geq 2} models and the associated maximized log-likelihood values. Additionally, it automatically prints the empirical Bayesian estimates of the individual characteristics, \eqn{\hat{z}_i}. The order of these estimates are in subject order. The estimates of \eqn{\Delta_{itj}} (for \eqn{t=2,..., T}) and \eqn{\Delta_{itj}^*} (for \eqn{t=1,...,T}) are in the same order of the responses and covariates. 
 }
 \references{
-Asar, O., Ilk, O. (2012). Probit Normal Marginalized Transition Random Effects Models. Submitted.
+Asar, O., Ilk, O., Sezer, A. D. (2013). Probit Normal Marginalized Transition Random Effects Models. Tentatively accepted.
 }
 \author{
 Ozgur Asar, Ozlem Ilk
 }
 \note{
-Version 1.0.
+Version 1.2.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

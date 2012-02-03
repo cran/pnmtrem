@@ -5,7 +5,7 @@
 A portion of a simulated dataset, for the baseline time point (t=1), from a first-order Probit-Normal Marginalized Transition Random Effects Models for 500 subjects with 4 follow-ups
 }
 \description{
-The dataset includes randomly generated bivariate longitudinal binary responses and an associated covariate which has a standard uniform distribution, U(0,1). The assumed parameters to generate the data are: \eqn{\beta^*=(\beta_0^*, \beta_1^*) = (-1, 1.9)}, \eqn{\lambda_j^=(\lambda_1^*, \lambda_2^*)=(1, 1.07)} and \eqn{b_{i1} \sim N(0,\sigma_1^2)}, \eqn{\sigma_1=0.7}. It is assumed that there are 500 subjects. The data include no missing value.
+The dataset includes randomly generated bivariate longitudinal binary responses and an associated covariate which has a standard uniform distribution, U(0,1). The assumed parameters to generate the data are: \eqn{\beta^*=(\beta_0^*, \beta_1^*) = (-1, 1.9)}, \eqn{\lambda_j=(\lambda_1^*, \lambda_2^*)=(1, 1.07)} and \eqn{b_{i1} \sim N(0,\sigma_1^2)}, \eqn{\sigma_1=0.7}. It is assumed that there are 500 subjects. The data include no missing value.
 }
 \usage{data(pnmtrem1.sim.data1)}
 \format{
