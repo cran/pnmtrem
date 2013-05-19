@@ -1,9 +1,9 @@
-28a8de28f01b262d4162bd40a35dbb6f *DESCRIPTION
+8814171cc802ba37b8842d87e14c9466 *DESCRIPTION
 9f59b167d2660010dc27d6093c3e89f8 *NAMESPACE
 57d1d44d40e2d92ef1db642ae0c8df3a *R/pnmtrem1.R
 a956d8a517c302d8d12d132b46616405 *data/pnmtrem1.sim.data1.rda
 cb2c7dee96b4b49695830866316707de *data/pnmtrem1.sim.data2.rda
-dc99687cd69e5be03a39023bddd51795 *man/pnmtrem.Rd
-5d7ed566b54f90cc3476e1bb05ed4fb6 *man/pnmtrem1.Rd
+dcdacca53a97013a7c295d86ce6c3c52 *man/pnmtrem.Rd
+050758905f2d17a836e3dad0de93c119 *man/pnmtrem1.Rd
 4a09ad7e2e225ad127c11b8b924d882d *man/pnmtrem1.sim.data1.Rd
 abef135ea5dc75faa448f2fbd7aced34 *man/pnmtrem1.sim.data2.Rd

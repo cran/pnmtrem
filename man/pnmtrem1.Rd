@@ -97,13 +97,13 @@ The modeling framework assumes two different models: 1) a model for baseline tim
 \code{pnmtrem1} returns the modeling output of baseline and \eqn{t \geq 2} models and the associated maximized log-likelihood values. Additionally, it automatically prints the empirical Bayesian estimates of the individual characteristics, \eqn{\hat{z}_i}. The order of these estimates are in subject order. The estimates of \eqn{\Delta_{itj}} (for \eqn{t=2,..., T}) and \eqn{\Delta_{itj}^*} (for \eqn{t=1,...,T}) are in the same order of the responses and covariates. 
 }
 \references{
-Asar, O., Ilk, O., Sezer, A. D. (2013). Probit Normal Marginalized Transition Random Effects Models. Tentatively accepted.
+Asar, O., Ilk, O., Sezer, A. D. (2013). A marginalized multilevel model for analyzing multivariate longitudinal binary data. Submitted.
 }
 \author{
 Ozgur Asar, Ozlem Ilk
 }
 \note{
-Version 1.2.
+Version 1.3.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
